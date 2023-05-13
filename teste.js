@@ -20,7 +20,7 @@ function countSubarrays(numbers, k) {
     }
   }
 
-  let sum = numbers[0];
+  let sum = numbers[0]; 
 
   for (let index = 0; index < numbers.length; index++) {
     if (sum < k) {
